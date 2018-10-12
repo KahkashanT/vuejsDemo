@@ -9,7 +9,7 @@
    <!--<eventHandling></eventHandling>-->
   <!-- <formsDemo></formsDemo>-->
    <!--<listRendering></listRendering>-->
-   <propsDemo :title="['hello','hello2']"></propsDemo>
+   <!--<propsDemo :title="['hello','hello2']"></propsDemo>-->
   <!--<propsDemo
   v-for="post in posts"
   v-bind:key="post.id"
