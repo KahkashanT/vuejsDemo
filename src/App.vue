@@ -5,9 +5,9 @@
    <!--<html_style></html_style>-->
    <!--<conditionalRendering></conditionalRendering>-->
    <!-- <methodsDemo></methodsDemo>-->
-  <!-- <componentsDemo></componentsDemo>-->
+  <lifecycleHooks></lifecycleHooks>
    <!--<eventHandling></eventHandling>-->
-   <!--<formsDemo></formsDemo>-->
+  <!-- <formsDemo></formsDemo>-->
    <!--<listRendering></listRendering>-->
   <!-- <propsDemo :title="['hello','hello2']"></propsDemo>-->
   </div>
@@ -19,7 +19,7 @@ import computedProperties from "./computedProperties.vue";
 import html_style from "./html_style.vue";
 import conditionalRendering from "./conditionalRendering.vue";
 import methodsDemo from "./methodsDemo.vue";
-import componentsDemo from "./componentsDemo.vue";
+import lifecycleHooks from "./lifecycleHooks.vue";
 import eventHandling from "./eventHandling.vue";
 import formsDemo from "./formsDemo.vue";
 import listRendering from "./listRendering.vue";
@@ -33,7 +33,7 @@ export default {
     html_style,
     conditionalRendering,
     methodsDemo,
-    componentsDemo,
+    lifecycleHooks,
     eventHandling,
     formsDemo,
     listRendering,

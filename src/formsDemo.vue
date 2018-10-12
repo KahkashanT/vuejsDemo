@@ -6,7 +6,7 @@
 
 <!--multiline text-->
   <!-- <span>Multiline message is:</span>
-<p style="white-space: pre-line;">{{ message }}</p>
+<p >{{ message }}</p>
 <br>
 <textarea v-model="message" placeholder="add multiple lines"></textarea>-->
 
@@ -21,11 +21,12 @@
   <label for="mike">Mike</label>
   <br>
   <span>Checked names: {{ checkedNames }}</span>
+  <br>
   <input
   type="checkbox"
   v-model="toggle"
   true-value="yes"
-  false-value="no"
+  false-value="no">
 </div>-->
 
   <!--radio-->
@@ -49,10 +50,11 @@
 </select>
 <span>Selected: {{ selected }}</span>
 <br>
-<select v-model="selected">
+<select v-model="selected2">
   
   <option v-bind:value="{ number: 123 }">123</option>
-</select>-->
+</select>
+<span>Selected: {{ selected2 }}</span>-->
 
 
 <!--input modifiers-->
@@ -76,6 +78,7 @@ export default {
       picked: "",
       pick: "",
       selected: "",
+      selected2: "",
       msg: "",
       data: ""
     };
