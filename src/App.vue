@@ -5,7 +5,7 @@
    <!--<html_style></html_style>-->
    <!--<conditionalRendering></conditionalRendering>-->
    <!-- <methodsDemo></methodsDemo>-->
-  <lifecycleHooks></lifecycleHooks>
+  <!--<lifecycleHooks></lifecycleHooks>-->
    <!--<eventHandling></eventHandling>-->
   <!-- <formsDemo></formsDemo>-->
    <!--<listRendering></listRendering>-->
