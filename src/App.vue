@@ -5,10 +5,10 @@
    <!--<html_style></html_style>-->
    <!--<conditionalRendering></conditionalRendering>-->
    <!-- <methodsDemo></methodsDemo>-->
-   <componentsDemo></componentsDemo>
-   <eventHandling></eventHandling>
-   <formsDemo></formsDemo>
-   <listRendering></listRendering>
+  <!-- <componentsDemo></componentsDemo>-->
+   <!--<eventHandling></eventHandling>-->
+   <!--<formsDemo></formsDemo>-->
+   <!--<listRendering></listRendering>-->
   <!-- <propsDemo :title="['hello','hello2']"></propsDemo>-->
   </div>
 </template>
