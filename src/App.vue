@@ -9,7 +9,12 @@
    <!--<eventHandling></eventHandling>-->
   <!-- <formsDemo></formsDemo>-->
    <!--<listRendering></listRendering>-->
-  <!-- <propsDemo :title="['hello','hello2']"></propsDemo>-->
+   <propsDemo :title="['hello','hello2']"></propsDemo>
+  <!--<propsDemo
+  v-for="post in posts"
+  v-bind:key="post.id"
+  v-bind:posts="post"
+></propsDemo>-->
   </div>
 </template>
 
@@ -39,5 +44,12 @@ export default {
     listRendering,
     propsDemo
   }
+  // data(){return{
+  //   posts: [
+  //     { id: 1, title: 'My journey with Vue' },
+  //     { id: 2, title: 'Blogging with Vue' },
+  //     { id: 3, title: 'Why Vue is so fun' }
+  //   ]
+  // }}
 };
 </script>
