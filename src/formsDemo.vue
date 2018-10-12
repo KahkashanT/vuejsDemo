@@ -25,8 +25,8 @@
   type="checkbox"
   v-model="toggle"
   true-value="yes"
-  false-value="no"-->
-
+  false-value="no"
+</div>-->
 
   <!--radio-->
  <!-- <input type="radio" id="one" value="One" v-model="picked">

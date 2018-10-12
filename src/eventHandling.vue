@@ -4,8 +4,7 @@
     <!--<button v-on:click="counter += 1">Add 1</button>
     <p>The button above has been clicked {{ counter }} times.</p>-->
 
-    <!--
-    method event handler-->
+    <!--method event handler-->
     <!--<button v-on:click="greet">Greet</button>
     <br>
     <a @click="greet">click</a>-->
