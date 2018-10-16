@@ -1,6 +1,6 @@
 <template>
 <div>
-  <!--<div v-if="type === 'A'">
+  <div v-if="type === 'A'">
     A
   </div>
   <div v-else-if="type === 'B'">
@@ -11,17 +11,17 @@
   </div>
   <div v-else>
     Not A/B/C
-  </div>-->
+  </div>
   
   <!-- v-if with template-->
-  <!--<template v-if="ok">
+  <div v-if="ok">
   <h1>Title</h1>
   <p>Paragraph 1</p>
   <p>Paragraph 2</p>
-</template>-->
+</div>
 
 <!-- v-show-->
-<!--<h1 v-show="ok">Hello!</h1>-->
+<h1 v-show="ok">Hello!</h1>
 </div>
 
 </template>
@@ -31,7 +31,7 @@ export default {
   name: "conditionalRendering",
   data() {
     return {
-      type: "C",
+      type: "A",
       ok:true
     };
   }

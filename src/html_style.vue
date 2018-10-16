@@ -1,16 +1,16 @@
 <template>
- <div class="static"
+ <!--<div class="static"
      v-bind:class="{ active: isActive, 'text-danger': hasError }">
      <p>See the style</p>
-</div>
+</div>-->
 
 
 <!-- applying inline styles-->
-<!--<div>
+<div>
 <div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }">Demo</div>
 <div v-bind:style="styleObject">Demo2</div>
 <div v-bind:style="[baseStyles, overridingStyles]">Demo3</div>
-</div>-->
+</div>
 </template>
 
 <script>
@@ -18,7 +18,7 @@ export default {
   name: "html_style",
   data() {
     return {
-      isActive: true,
+      isActive: false,
       hasError: false,
       fontSize: 30,
       styleObject: {
@@ -37,14 +37,11 @@ export default {
 </script>
 
 <style>
-.static p{
+.static p {
   color: blue;
-  
 }
 
-.active p{
-   color: green;
+.active p {
+  color: green;
 }
-
-
 </style>

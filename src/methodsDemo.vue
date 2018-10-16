@@ -1,6 +1,6 @@
 <template id="panel">
 <div id="app">
-  <div v-if="isLoggedIn == true">
+  <div v-if="isLoggedIn">
     Welcome, {{ username }}
     <br>
     <a href="#" v-on:click.prevent="logout">Logout</a>
