@@ -24,6 +24,10 @@
     <router-link to="/coins/bitcoin">Bitcoin</router-link><br>
     <router-view></router-view>
   </div>-->
+  <div >
+      <product-list-one></product-list-one>
+      <product-list-two></product-list-two>
+  </div>
   </div>
 </template>
 
@@ -38,6 +42,8 @@ import eventHandling from "./eventHandling.vue";
 import formsDemo from "./formsDemo.vue";
 import listRendering from "./listRendering.vue";
 import propsDemo from "./propsDemo.vue";
+import ProductListOne from "./components/ProductListOne.vue";
+import ProductListTwo from "./components/ProductListTwo.vue";
 
 export default {
   name: "App",
@@ -51,7 +57,9 @@ export default {
     eventHandling,
     formsDemo,
     listRendering,
-    propsDemo
+    propsDemo,
+    "product-list-one": ProductListOne,
+    "product-list-two": ProductListTwo
   },
   // data(){return{
   //   posts: [

@@ -4,7 +4,7 @@ import Vue from "vue";
 import App from "./App";
 
 import router from "./router";
-
+import { store } from "./store/store";
 // new Vue({ el: "#components-demo" });
 // /* eslint-disable no-new */
 // var button_counter = Vue.component("button_counter", {
@@ -42,6 +42,7 @@ new Vue({
   // mounted: function() {
   //   console.log(this.$el.textContent);
   // },
+  store: store,
   router,
   render: h => h(App)
 });
