@@ -3,7 +3,7 @@
     <!--<templateDemo></templateDemo>-->
    <!-- <computedProperties></computedProperties>-->
    <!--<html_style></html_style>-->
-  <!-- <conditionalRendering></conditionalRendering>-->
+  <!--<conditionalRendering></conditionalRendering>-->
    <!-- <methodsDemo></methodsDemo>-->
   <!--<lifecycleHooks></lifecycleHooks>-->
    <!--<eventHandling></eventHandling>-->
@@ -15,6 +15,15 @@
   v-bind:key="post.id"
   v-bind:posts="post"
 ></propsDemo>-->
+
+
+<!--<div id="app">
+    <router-link :to="{ name: 'Home' }">Home</router-link><br>
+    <router-link to="/about">About</router-link><br>
+    <router-link to="/coins/ethereum">Ethereum</router-link><br>
+    <router-link to="/coins/bitcoin">Bitcoin</router-link><br>
+    <router-view></router-view>
+  </div>-->
   </div>
 </template>
 
@@ -43,13 +52,14 @@ export default {
     formsDemo,
     listRendering,
     propsDemo
-  }
+  },
   // data(){return{
   //   posts: [
   //     { id: 1, title: 'My journey with Vue' },
   //     { id: 2, title: 'Blogging with Vue' },
   //     { id: 3, title: 'Why Vue is so fun' }
   //   ]
-  // }}
+  // }},
+  props: []
 };
 </script>

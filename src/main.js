@@ -2,6 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from "vue";
 import App from "./App";
+
+import router from "./router";
+
 // new Vue({ el: "#components-demo" });
 // /* eslint-disable no-new */
 // var button_counter = Vue.component("button_counter", {
@@ -39,5 +42,6 @@ new Vue({
   // mounted: function() {
   //   console.log(this.$el.textContent);
   // },
+  router,
   render: h => h(App)
 });
