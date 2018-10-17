@@ -17,17 +17,21 @@
 ></propsDemo>-->
 
 
-<!--<div id="app">
+<!--<div >
     <router-link :to="{ name: 'Home' }">Home</router-link><br>
     <router-link to="/about">About</router-link><br>
     <router-link to="/coins/ethereum">Ethereum</router-link><br>
     <router-link to="/coins/bitcoin">Bitcoin</router-link><br>
-    <router-view></router-view>
+    <router-link to="/about/profile">Nested Routing</router-link><br>
+    <router-link to="/">Home-Redirect</router-link><br>
+    <router-link to="/tellabout">About-Alias</router-link><br>
+    <router-view :key=" $route.fullPath"></router-view>
   </div>-->
-  <div >
+  
+  <!--<div >
       <product-list-one></product-list-one>
       <product-list-two></product-list-two>
-  </div>
+  </div>-->
   </div>
 </template>
 
@@ -47,6 +51,9 @@ import ProductListTwo from "./components/ProductListTwo.vue";
 
 export default {
   name: "App",
+  data() {
+    return {};
+  },
   components: {
     templateDemo,
     computedProperties,
@@ -60,7 +67,7 @@ export default {
     propsDemo,
     "product-list-one": ProductListOne,
     "product-list-two": ProductListTwo
-  },
+  }
   // data(){return{
   //   posts: [
   //     { id: 1, title: 'My journey with Vue' },
@@ -68,6 +75,5 @@ export default {
   //     { id: 3, title: 'Why Vue is so fun' }
   //   ]
   // }},
-  props: []
 };
 </script>
