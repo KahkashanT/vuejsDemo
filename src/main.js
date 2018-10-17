@@ -5,10 +5,9 @@ import App from "./App";
 
 import router from "./router";
 import { store } from "./store/store";
-// new Vue({ el: "#components-demo" });
-// /* eslint-disable no-new */
+
+/* component example */
 // var button_counter = Vue.component("button_counter", {
-//   name: "button-counter",
 //   data: function() {
 //     return {
 //       count: 0
@@ -16,12 +15,11 @@ import { store } from "./store/store";
 //   },
 //   template:
 //     '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
-
 // });
 
 new Vue({
   el: "#app",
-  //components: { button_counter },
+
   // data: {
   //   x: 5,
   //   count: 5

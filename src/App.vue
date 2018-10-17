@@ -51,9 +51,7 @@ import ProductListTwo from "./components/ProductListTwo.vue";
 
 export default {
   name: "App",
-  data() {
-    return {};
-  },
+  
   components: {
     templateDemo,
     computedProperties,
@@ -67,13 +65,15 @@ export default {
     propsDemo,
     "product-list-one": ProductListOne,
     "product-list-two": ProductListTwo
+  },
+  data() {
+    return {
+      posts: [
+        { id: 1, title: "My journey with Vue" },
+        { id: 2, title: "Blogging with Vue" },
+        { id: 3, title: "Why Vue is so fun" }
+      ]
+    };
   }
-  // data(){return{
-  //   posts: [
-  //     { id: 1, title: 'My journey with Vue' },
-  //     { id: 2, title: 'Blogging with Vue' },
-  //     { id: 3, title: 'Why Vue is so fun' }
-  //   ]
-  // }},
 };
 </script>
