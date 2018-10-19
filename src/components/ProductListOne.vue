@@ -26,8 +26,11 @@ export default {
   },
   methods: {
     //...mapActions(["reducePrice"])
+    // reducePrice:function(amount){
+    //   this.$store.dispatch('reducePrice',amount)
+    // }
     reducePrice:function(amount){
-      this.$store.dispatch('reducePrice',amount)
+      this.$store.commit('reducePrice',amount)
     }
   }
 };

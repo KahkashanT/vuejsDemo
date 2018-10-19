@@ -16,7 +16,6 @@
   v-bind:posts="post"
 ></propsDemo>-->
 
-
 <!--<div >
     <router-link :to="{ name: 'Home' }">Home</router-link><br>
     <router-link to="/about">About</router-link><br>
@@ -28,10 +27,10 @@
     <router-view :key=" $route.fullPath"></router-view>
   </div>-->
   
-  <!--<div >
+  <div >
       <product-list-one></product-list-one>
       <product-list-two></product-list-two>
-  </div>-->
+  </div>
   </div>
 </template>
 
@@ -51,7 +50,7 @@ import ProductListTwo from "./components/ProductListTwo.vue";
 
 export default {
   name: "App",
-  
+
   components: {
     templateDemo,
     computedProperties,

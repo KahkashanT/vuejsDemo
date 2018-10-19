@@ -1,13 +1,13 @@
 import Vue from "vue";
-import Router from "vue-router";
+import VueRouter from "vue-router";
 import Home from "@/components/Home";
 import About from "@/components/About";
 import Coins from "@/components/Coins.vue";
 
 import UserProfile from "@/components/UserProfile.vue";
-Vue.use(Router);
+Vue.use(VueRouter);
 
-export default new Router({
+export default new VueRouter({
   routes: [
     {
       path: "/",
