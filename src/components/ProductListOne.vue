@@ -20,7 +20,7 @@ export default {
       return this.$store.state.products;
     },
     //...mapGetters(["saleProducts"])
-    saleProducts(){
+    saleProducts() {
       return this.$store.getters.saleProducts;
     }
   },
@@ -29,8 +29,8 @@ export default {
     // reducePrice:function(amount){
     //   this.$store.dispatch('reducePrice',amount)
     // }
-    reducePrice:function(amount){
-      this.$store.commit('reducePrice',amount)
+    reducePrice: function(amount) {
+      this.$store.commit("reducePrice", amount);
     }
   }
 };

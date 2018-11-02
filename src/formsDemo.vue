@@ -30,7 +30,7 @@
 </div>-->
 
   <!--radio-->
-<!--  <input type="radio" id="one" value="One" v-model="picked">
+ <!-- <input type="radio" id="one" value="One" v-model="picked">
 <label for="one">One</label>
 <br>
 <input type="radio" id="two" value="Two" v-model="picked">

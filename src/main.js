@@ -7,7 +7,7 @@ import router from "./router";
 import { store } from "./store/store";
 
 /* component example */
-// var button_counter = Vue.component("button_counter", {
+// var ButtonCounter = Vue.component("ButtonCounter", {
 //   data: function() {
 //     return {
 //       count: 0
@@ -24,6 +24,7 @@ new Vue({
   //   x: 5,
   //   count: 5
   // },
+  // components: { ButtonCounter: ButtonCounter }
   // beforeCreate: function() {
   //   //`this` points to the view model instance
   //   console.log("x is: " + this.x);

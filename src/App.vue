@@ -27,10 +27,10 @@
     <router-view :key=" $route.fullPath"></router-view>
   </div>-->
   
-  <div >
+  <!--<div >
       <product-list-one></product-list-one>
       <product-list-two></product-list-two>
-  </div>
+  </div>-->
   </div>
 </template>
 
